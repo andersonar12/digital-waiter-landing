@@ -1,0 +1,7 @@
+User-agent: AdsBot
+Disallow: /
+
+User-agent: *
+Disallow:
+
+Sitemap:https://www.digitalwaiter.cl/sitemap.xml

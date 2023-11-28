@@ -1,0 +1,623 @@
+body{
+ font-family: 'San Francisco Pro'; 
+ background-color: #0b1313;
+}
+
+@media (max-width: 550px){
+    body{
+    padding-top: 80px!important;
+    }
+}
+   
+.text-white{
+    color: white!important;
+}
+
+p{
+    font-size: 17px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 0.25rem!important;
+}
+
+.text-waiter{
+    color: #e3cbaf!important; 
+}
+
+.bold{
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+.text-waiter-2{
+    color: #ac8a60!important;
+}
+/* Navbar */
+
+.btn-success {
+    background-color: #ba6a28;
+    border-color: #ba6a28;
+    border-radius: 0.7rem;
+}
+
+.navbar.bg-primary{
+    border-bottom: 2px solid #A88E70;
+}
+
+.header ul li a.font{
+    font-size: 12px;
+    font-weight: bold;
+    color: #A88E70;
+    letter-spacing: 0.16rem;
+}
+
+.header a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.bg-primary{
+    background-color: rgb(11 19 21 / 83%)!important;
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255 0 0);
+    border-color: rgb(161 136 107);
+}
+
+@media (max-width: 991px){
+.header ul li a.font{
+    text-align: center!important;
+}
+}
+
+.navbar .fixed-top {
+    z-index: 1000!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #a1886b!important;
+}
+
+.dropdown-menu {
+    color: #a88e70!important;
+    background-color: #0b1313!important;
+    border:1px solid;
+}
+
+.dropdown-item{
+    font-size: 13px;
+    color:#a88e70;
+    text-transform: uppercase;
+    letter-spacing: 0.13rem;
+}
+
+/* @media screen and (min-width: 850px) and (max-width: 1480px) {
+    .mail{
+        margin-top: 0px;
+    }
+  }
+
+@media screen and (min-width: 50px) and (max-width: 850px) {
+        .mail {
+        margin-top: 10px!important;
+        margin-left: 173px;   
+         }
+    } */
+
+.mail1:hover{
+    cursor: pointer;
+}
+
+.mail2:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 991px) {
+    .mail1{
+      display:none  
+    }
+    .conoce-2{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 50px) and (max-width: 991px) {
+    .mail2{
+     display: none; 
+    }
+    .conoce-1{
+        display: none;
+    }
+    .bg-primary {
+        background-color: rgba(11, 19, 21, 0.959)!important;
+    }
+}
+
+
+   
+/* Navbar */
+
+/* Sidebar */
+
+.sidebar{
+    background-color: #111d21!important;
+    z-index: 1040!important;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    -moz-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+}
+
+.sidebar .btn{
+    color: #A88E70;
+    font-size:30px;
+}
+
+.sidebar .parrafo{
+    color: #A88E70;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Sidebar */
+
+/* Sidebar Left*/
+
+.sidebar-left{
+    background-color: #111d21!important;
+    z-index: 1040!important;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    -moz-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+}
+
+.sidebar-left .btn{
+    color: #A88E70;
+    font-size:30px;
+}
+
+.sidebar-left .enlace{
+    color: #A88E70;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'San Francisco Pro Bold';
+}
+
+/* Sidebar */
+
+/* Menu Digital */
+/* 
+.imagen-principal {
+    
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/main-h-new-rev-img-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.menu-digital{
+    font-size: 75px;
+    color: #e3cbaf;
+    font-family: 'San Francisco Pro Bold';
+    text-shadow: 3px 4px 3px rgba(35,15,9,0.95);
+}
+
+.imagen-principal .container-fluid{
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 978px) {
+    .imagen-principal .container-fluid{
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    .menu-digital{
+        font-size: 65px;
+    }
+  }
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+    .imagen-principal .container-fluid{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+
+    .menu-digital{
+        font-size: 55px;
+    }
+  }
+
+@media screen and (min-width: 645px) and (max-width: 750px) {
+    .imagen-principal .container-fluid{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .menu-digital{
+        font-size: 45px;
+    }
+  }
+
+@media screen and (min-width: 400px) and (max-width: 644px) {
+    .imagen-principal .container-fluid{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .menu-digital{
+        font-size: 35px;
+    }
+  }
+
+  @media screen and (min-width: 50px) and (max-width: 399px) {
+    .imagen-principal .container-fluid{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .menu-digital{
+        font-size: 25px;
+    }
+  }
+  */
+/* Menu Digital  */
+
+/* Carousel */
+
+.carousel .carousel-label{
+    font-size: 71px!important;
+    color: #e3cbaf!important;
+    font-family: 'San Francisco Pro Bold'!important;
+    text-shadow: 3px 4px 3px rgba(35,15,9,0.95)!important;
+}
+
+.carousel-caption{
+    bottom: 40%!important;
+}
+
+@media screen and (min-width: 850px) and (max-width: 978px) {
+    
+    .carousel .carousel-label{
+        font-size: 65px!important;
+    }
+  }
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+    
+
+    .carousel .carousel-label{
+        font-size: 55px!important;
+    }
+  }
+
+@media screen and (min-width: 645px) and (max-width: 750px) {
+    
+
+    .carousel .carousel-label{
+        font-size: 45px!important;
+    }
+  }
+
+@media screen and (min-width: 400px) and (max-width: 644px) {
+    
+
+    .carousel .carousel-label{
+        font-size: 35px!important;
+    }
+    .carousel-caption{
+        bottom: 32%!important;
+    }
+  }
+
+  @media screen and (min-width: 50px) and (max-width: 399px) {
+    
+    .carousel .carousel-label{
+        font-size: 25px!important;
+    }
+
+    .carousel-caption{
+        bottom: 28%!important;
+    }
+  }
+/* Carousel */
+
+/* Cliente */
+.cliente{
+    background-color: #111d21;
+}
+
+.cliente a.btn{
+    font-size: 12px!important;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem!important;
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+.cliente .texto{
+    color: #A88E70;
+    letter-spacing: 0.16rem!important;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .cliente .texto{
+        color: #A88E70;
+        font-size: 17px;
+    }
+  }
+
+/* Cliente */
+
+/* Ventajas */
+.ventajas{
+    background-color: #0b1314;
+}
+.ventajas .fuente{
+    color: #ac8a60!important;
+   letter-spacing: 0.25rem!important;
+}
+
+.ventajas .texto{
+    color: #e3cbaf!important;
+   letter-spacing: 0.25rem!important;
+}
+/* Ventajas */
+
+/* Pasos para ordenar */
+
+.ordenes{
+    background-color: #111d21;
+}
+
+.ordenes .fuente{
+    color: #ac8a60!important;
+   letter-spacing: 0.25rem!important;
+}
+
+.ordenes .texto{
+   letter-spacing: 0.25rem!important;
+}
+
+.ordenes a.btn{
+    font-size: 12px!important;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem!important;
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+
+/* Pasos para ordenar */
+
+/* Segmento */
+.segmento{
+    background-color: #0b1314;
+}
+
+.segmento a.btn{
+    font-size: 12px!important;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem!important;
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+@media screen and (max-width: 550px) {
+    
+    .segmento .texto{
+        text-align: center!important;
+    }
+
+    .segmento h5{
+        color: #A88E70;
+        font-size: 15px;
+    }
+  }
+
+  .segmento .imagen{
+    order: 1;
+}
+
+@media (min-width:768px) {
+    .segmento .imagen{
+        order: unset;
+    }
+}
+/* Segmento */
+
+
+/* Casos de exito */
+
+.casos{
+    background-color: #111d21;
+}
+
+.casos .fuente{
+    color: #ac8a60!important;
+   letter-spacing: 0.25rem!important;
+}
+
+.casos a.btn{
+    font-size: 12px!important;
+    color:#3e2b10!important;
+    letter-spacing: 0.16rem!important;
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+.casos .btn-success {
+    background-color: #ac8a60;
+    border-color: #ac8a60
+}
+
+/* Casos de exito */
+
+/* PLanes de suscripcion */
+.planes .fuente{
+    color: #ac8a60!important;
+   letter-spacing: 0.25rem!important;
+}
+
+.planes{
+    background-color: #0b1314;
+}
+
+.planes ul { list-style-image: url('../img/check.png'); }
+
+.planes li{
+    font-size: 19px;
+}
+
+.planes .texto{
+    color: #e3cbaf!important;
+   letter-spacing: 0.25rem!important;
+}
+
+.planes a.btn{
+    font-size: 12px!important;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem!important;
+    font-family: 'San Francisco Pro Bold'!important;
+}
+
+.planes .cuadro{
+    background-color: #111d21;
+    border-radius: 30px;
+    border: 2px solid #dbc3a8;
+}
+/* PLanes de suscripcion */
+
+/* Imagen Video */
+
+.imagen-video:hover{
+    cursor: pointer!important;
+}
+
+.video{
+    background-color: #111d21 ;
+}
+
+.video .fuente{
+    color: #A88E70!important;
+   letter-spacing: 0.25rem!important;
+}
+
+
+/* Imagen Video */
+
+/* Tiempo Contacto */
+.tiempo-contacto{
+    background-color:#111d21;
+}
+
+.tiempo-contacto h3{
+    color: #A88E70;
+   letter-spacing: 0.25rem;
+}
+
+@media (max-width: 645px){
+    .tiempo-contacto{
+        padding-top: 30px;
+    }
+    }
+
+.tiempo-contacto a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+/* Tiempo Contacto */
+
+/* Tiempo de Pedido */
+
+.tiempo-perdido{
+    background-color: #0b1314;
+}
+
+.tiempo-perdido h3{
+    color: #A88E70;
+   letter-spacing: 0.25rem;
+}
+
+.tiempo-perdido a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.tiempo-perdido .imagen{
+    order: 1;
+}
+
+@media (min-width:768px) {
+    .tiempo-perdido .imagen{
+        order: unset;
+    }
+}
+/* Tiempo de Pedido */
+
+/* Footer */
+
+.footer{
+    background-color: #0b1314;
+}
+
+.footer p{
+    color: #A88E70;
+}
+
+.footer a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.sociales p {
+    margin-bottom: 0px;
+  }
+  
+  .sociales ul {
+    list-style: none;
+  }
+  
+  .sociales a {
+      text-decoration: none;
+      color: #ffffff !important;
+  }
+
+  .footer .borde{
+    border-right: 1px solid #A88E70;
+  }
+
+  .footer .social{
+    border-right: 0px;
+  }
+
+  @media (max-width: 943px) {
+    .footer .borde{
+        border-right: 0px;
+      }
+  }
+
+  @media (max-width: 765px) {
+    .footer .borde{
+        border-bottom: 1px solid #A88E70;
+      }
+
+      .footer .social{
+        border-bottom: 0px!important;
+      }
+
+    .footer {
+        padding-top: 0px!important;
+    }
+  }
+/* Footer */

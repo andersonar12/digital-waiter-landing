@@ -1,0 +1,288 @@
+body{
+ font-family: 'San Francisco Pro';
+ background-color: #0b1313;
+}
+
+@media (max-width: 550px){
+    body{
+    padding-top: 80px!important;
+    }
+}
+.text-white{
+    color: white!important;
+}
+
+p{
+    font-size: 17px;
+
+}
+/* Navbar */
+
+.btn-success {
+    background-color: #ba6a28;
+    border-color: #ba6a28;
+    border-radius: 0.7rem;
+}
+
+.navbar.bg-primary{
+    border-bottom: 2px solid #A88E70;
+}
+
+.header ul li a.font{
+    font-size: 12px;
+    font-weight: bold;
+    color: #A88E70;
+    letter-spacing: 0.16rem;
+}
+
+.header a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.bg-primary{
+    background-color: rgb(11 19 21 / 83%)!important;
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255 0 0);
+    border-color: rgb(161 136 107);
+}
+
+@media (max-width: 991px){
+.header ul li a.font{
+    text-align: center!important;
+}
+}
+
+.navbar .fixed-top {
+    z-index: 1000!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #a1886b!important;
+}
+
+.dropdown-menu {
+    color: #a88e70!important;
+    background-color: #0b1313!important;
+    border:1px solid;
+}
+
+.dropdown-item{
+    font-size: 13px;
+    color:#a88e70;
+    text-transform: uppercase;
+    letter-spacing: 0.13rem;
+}
+
+/* @media screen and (min-width: 850px) and (max-width: 1480px) {
+    .mail{
+        margin-top: 0px;
+    }
+  }
+
+@media screen and (min-width: 50px) and (max-width: 850px) {
+        .mail {
+        margin-top: 10px!important;
+        margin-left: 173px;   
+         }
+    } */
+
+.mail1:hover{
+    cursor: pointer;
+}
+
+.mail2:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 991px) {
+    .mail1{
+      display:none  
+    }
+    .conoce-2{
+        display: none;
+    }
+  }
+
+@media screen and (min-width: 50px) and (max-width: 991px) {
+    .mail2{
+     display: none; 
+    }
+    .conoce-1{
+        display: none;
+    }
+    .bg-primary {
+        background-color: rgba(11, 19, 21, 0.897)!important;
+    }
+    }
+
+/* Navbar */
+
+/* Sidebar */
+
+.sidebar{
+    background-color: #111d21!important;
+    z-index: 1040!important;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    -moz-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+}
+
+.sidebar .btn{
+    color: #A88E70;
+    font-size:30px;
+}
+
+.sidebar .parrafo{
+    color: #A88E70;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Sidebar */
+
+
+/* Sidebar Left*/
+
+.sidebar-left{
+    background-color: #111d21!important;
+    z-index: 1040!important;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    -moz-box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+    box-shadow: -3px 0px 5px 0px rgba(15,14,15,1);
+}
+
+.sidebar-left .btn{
+    color: #A88E70;
+    font-size:30px;
+}
+
+.sidebar-left .enlace{
+    color: #A88E70;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'San Francisco Pro Bold';
+}
+
+/* Sidebar */
+
+
+/* Contacto */
+
+.submited{
+    background-color: #0b1314;
+    margin-top: 120px;
+}
+
+.submited h3{
+    color: #A88E70;
+   font-size: 43px;
+}
+
+
+.submited p{
+    color: #A88E70;
+    font-size: 17px;
+    letter-spacing: 0.10rem;
+    margin-bottom: 0px;
+}
+
+.submited .parrafo p{
+    color:white!important;
+}
+
+.submited .parrafo .bold{
+    font-family: 'San Francisco Pro Bold';
+}
+
+.submited .parrafo .raya {
+    font-family: 'San Francisco Pro Bold';
+    color: #A88E70!important;
+}
+
+.submited a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.submited .bold{
+    font-family: 'San Francisco Pro Bold';
+}
+@media screen and (min-width: 50px) and (max-width: 481px) {
+    .submited{
+     padding-top: 0px!important; 
+     margin-bottom: 30px;
+    }
+
+    }
+
+/* Contacto */
+
+
+/* Footer */
+
+.footer{
+    background-color: #0b1314;
+    border-top: 1px solid #636464;
+}
+
+.footer p{
+    color: #A88E70;
+}
+
+.footer a.btn{
+    font-size: 12px;
+    color:rgb(255, 255, 255)!important;
+    letter-spacing: 0.16rem;
+    font-family: 'San Francisco Pro Bold';
+}
+
+.sociales p {
+    margin-bottom: 0px;
+  }
+  
+  .sociales ul {
+    list-style: none;
+  }
+  
+  .sociales a {
+      text-decoration: none;
+      color: #ffffff !important;
+  }
+
+  .footer .borde{
+    border-right: 1px solid #A88E70;
+  }
+
+  .footer .social{
+    border-right: 0px;
+  }
+
+  @media (max-width: 943px) {
+    .footer .borde{
+        border-right: 0px;
+      }
+  }
+
+  @media (max-width: 765px) {
+    .footer .borde{
+        border-bottom: 1px solid #A88E70;
+      }
+
+      .footer .social{
+        border-bottom: 0px!important;
+      }
+
+    .footer {
+        padding-top: 0px!important;
+    }
+  }
+
+/* Footer */
